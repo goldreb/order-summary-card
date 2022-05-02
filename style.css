@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.full-card {
+  width: 400px;
+  height: auto;
+  background: white;
+  border-radius: 20px;
+}
+
+.hero-img {
+  width: 400px;
+  border-radius: 20px 20px 0 0;
+}
+
+.header {
+  padding-top: 30px;
+
+  text-align: center;
+  font-size: 25px;
+  font-weight: 900;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.summary p {
+  text-align: center;
+  color: gray;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px 20px;
+}
+
+.plan {
+  display: flex;
+
+  padding: 25px;
+  background-color: rgba(175, 171, 171, 0.1);
+  border-radius: 15px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px;
+}
+
+.plan p {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+span {
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Red Hat Display", sans-serif;
+  color: gray;
+}
+
+.plan img {
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+
+.plan .change {
+  float: right;
+  margin-left: 80px;
+  cursor: pointer;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+}
+
+.change:hover {
+  text-decoration: none;
+  color: hsl(263, 77%, 59%);
+}
+
+.btn-primary {
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  padding-bottom: 5px;
+}
+
+.main-btn {
+  margin: 15px;
+
+  width: 80%;
+  height: 40px;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 5px 15px 15px hsl(228, 64%, 89%);
+  cursor: pointer;
+}
+
+.main-btn:hover {
+  background-color: hsl(263, 77%, 59%);
+}
+
+span {
+  cursor: pointer;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+}
+
+span:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+/* media querries */
+
+@media screen and (max-width: 425px) {
+  body {
+    background-image: url(images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    font-size: 14px;
+  }
+
+  .container {
+    max-width: 90%;
+  }
+}
