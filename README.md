@@ -14,7 +14,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Continued development](#continued-development)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -37,7 +36,7 @@ Users should be able to:
 
 ## My process
 
-Since the style is give.
+Since the style is given.
 
 - I started with html
 - I then move into css
